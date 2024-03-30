@@ -1,5 +1,5 @@
 {
-  "name": "@charles5277/vue-bottom-sheet",
+  "name": "@charles5277/vue-bottom-sheet-mobile",
   "version": "1.0.0",
   "private": false,
   "scripts": {
@@ -38,13 +38,13 @@
     "dist",
     "package.json"
   ],
-  "main": "dist/vue-bottom-sheet.umd.js",
-  "module": "dist/vue-bottom-sheet.es.js",
+  "main": "dist/vue-bottom-sheet-mobile.umd.js",
+  "module": "dist/vue-bottom-sheet-mobile.es.js",
   "types": "./dist/VueBottomSheet.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vue-bottom-sheet.es.js",
-      "require": "./dist/vue-bottom-sheet.umd.js"
+      "import": "./dist/vue-bottom-sheet-mobile.es.js",
+      "require": "./dist/vue-bottom-sheet-mobile.umd.js"
     },
     "./dist/style.css": {
       "import": "./dist/style.css",

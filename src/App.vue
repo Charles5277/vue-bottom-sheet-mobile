@@ -75,7 +75,7 @@
       </div>
     </div>
     <button class="btn btn-primary" type="button" @click="open">Open bottom sheet</button>
-    <vue-bottom-sheet
+    <bottom-sheet
       :overlay-click-close="clickToClose"
       :transition-duration="0.5"
       :max-width="maxWidth"
@@ -148,7 +148,7 @@
         </p>
         <button type="button" class="btn btn-danger" @click="close">Close</button>
       </div>
-    </vue-bottom-sheet>
+    </bottom-sheet>
   </div>
 </template>
 

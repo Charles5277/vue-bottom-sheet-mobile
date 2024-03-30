@@ -1,45 +1,40 @@
-![Example](https://bs.vaban.ru/logo.jpg)
-
 # Vue Bottom Sheet 
-![Size](https://img.shields.io/bundlephobia/minzip/@webzlodimir/vue-bottom-sheet)
-![Downloads](https://img.shields.io/npm/dt/@webzlodimir/vue-bottom-sheet)
-![Version](https://img.shields.io/npm/v/@webzlodimir/vue-bottom-sheet)
+![Size](https://img.shields.io/bundlephobia/minzip/@charles5277/vue-bottom-sheet-mobile)
+![Downloads](https://img.shields.io/npm/dt/@charles5277/vue-bottom-sheet-mobile)
+![Version](https://img.shields.io/npm/v/@charles5277/vue-bottom-sheet-mobile)
 
 A nice clean and touch-friendly bottom sheet component based on [Vue.js](https://vuejs.org/) and [hammer.js](https://hammerjs.github.io/) for Vue 3
-
- - [Vue 2 Version](https://github.com/vaban-ru/vue-bottom-sheet-vue2) 
- - :clapper: [Demo](https://bs.vaban.ru/)
 
 ## Installation
 
 ### NPM
 
 ```
-npm install @webzlodimir/vue-bottom-sheet
+npm install @charles5277/vue-bottom-sheet-mobile
 ```
 
 ### Yarn
 
 ```
-yarn add @webzlodimir/vue-bottom-sheet
+yarn add @charles5277/vue-bottom-sheet-mobile
 ```
 
 ## Usage
 
 ```vue
 <template>
-  <vue-bottom-sheet ref="myBottomSheet">
+  <bottom-sheet ref="myBottomSheet">
     <h1>Lorem Ipsum</h1>
     <h2>What is Lorem Ipsum?</h2>
     <p>
       <strong>Lorem Ipsum</strong> is simply dummy text
     </p>
-  </vue-bottom-sheet>
+  </bottom-sheet>
 </template>
 
 <script setup>
-import VueBottomSheet from "@webzlodimir/vue-bottom-sheet";
-import  "@webzlodimir/vue-bottom-sheet/dist/style.css";
+import VueBottomSheet from "@charles5277/vue-bottom-sheet-mobile";
+import  "@charles5277/vue-bottom-sheet-mobile/dist/style.css";
 import { ref } from "vue";
 
 const myBottomSheet = ref(null)
@@ -58,18 +53,18 @@ const close = () => {
 
 ```vue
 <template>
-  <vue-bottom-sheet ref="myBottomSheet">
+  <bottom-sheet ref="myBottomSheet">
     <h1>Lorem Ipsum</h1>
     <h2>What is Lorem Ipsum?</h2>
     <p>
       <strong>Lorem Ipsum</strong> is simply dummy text
     </p>
-  </vue-bottom-sheet>
+  </bottom-sheet>
 </template>
 
 <script setup lang="ts">
-import VueBottomSheet from "@webzlodimir/vue-bottom-sheet";
-import  "@webzlodimir/vue-bottom-sheet/dist/style.css";
+import VueBottomSheet from "@charles5277/vue-bottom-sheet-mobile";
+import  "@charles5277/vue-bottom-sheet-mobile/dist/style.css";
 import { ref } from "vue";
 
 const myBottomSheet = ref<InstanceType<typeof VueBottomSheet>>()
@@ -91,13 +86,13 @@ For Nuxt 3, just wrap component in `<client-only>`
 ```vue
 <template>
   <client-only>
-    <vue-bottom-sheet ref="myBottomSheet">
+    <bottom-sheet ref="myBottomSheet">
       <h1>Lorem Ipsum</h1>
       <h2>What is Lorem Ipsum?</h2>
       <p>
         <strong>Lorem Ipsum</strong> is simply dummy text
       </p>
-    </vue-bottom-sheet>
+    </bottom-sheet>
   </client-only>
 </template>
 ```
@@ -129,7 +124,7 @@ You can use this named slots:
 
 ```vue
 <template>
-  <vue-bottom-sheet ref="myBottomSheet">
+  <bottom-sheet ref="myBottomSheet">
     <template #header>
       <h1>Lorem Ipsum</h1>
     </template>
@@ -141,6 +136,6 @@ You can use this named slots:
         <strong>Lorem Ipsum</strong> is simply dummy text
       </p>
     </template>
-  </vue-bottom-sheet>
+  </bottom-sheet>
 </template>
 ```
