@@ -106,21 +106,6 @@ const bottomSheetContent = ref<HTMLElement | null>(null)
 const bottomSheetDraggableArea = ref<HTMLElement | null>(null)
 
 /**
- * Close bottom sheet when escape key is pressed
- * @param element
- */
-const isFocused = (element: HTMLElement) => document.activeElement === element
-window.addEventListener('keyup', (event: KeyboardEvent) => {
-  const isSheetElementFocused =
-    bottomSheet.value!.contains(event.target as HTMLElement) &&
-    isFocused(event.target as HTMLElement)
-
-  if (event.key === 'Escape' && !isSheetElementFocused) {
-    close()
-  }
-})
-
-/**
  * Return all classes for bottom sheet content
  */
 const sheetContentClasses = computed(() => {
