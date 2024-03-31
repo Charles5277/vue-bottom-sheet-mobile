@@ -33,7 +33,7 @@ yarn add @charles5277/vue-bottom-sheet-mobile
 </template>
 
 <script setup>
-import VueBottomSheet from "@charles5277/vue-bottom-sheet-mobile";
+import BottomSheet from "@charles5277/vue-bottom-sheet-mobile";
 import  "@charles5277/vue-bottom-sheet-mobile/dist/style.css";
 import { ref } from "vue";
 
@@ -63,11 +63,11 @@ const close = () => {
 </template>
 
 <script setup lang="ts">
-import VueBottomSheet from "@charles5277/vue-bottom-sheet-mobile";
+import BottomSheet from "@charles5277/vue-bottom-sheet-mobile";
 import  "@charles5277/vue-bottom-sheet-mobile/dist/style.css";
 import { ref } from "vue";
 
-const myBottomSheet = ref<InstanceType<typeof VueBottomSheet>>()
+const myBottomSheet = ref<InstanceType<typeof BottomSheet>>()
 
 const open = () => {
   myBottomSheet.value.open();
