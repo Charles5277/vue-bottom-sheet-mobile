@@ -40,7 +40,7 @@
   ],
   "main": "dist/vue-bottom-sheet-mobile.umd.js",
   "module": "dist/vue-bottom-sheet-mobile.es.js",
-  "types": "./dist/VueBottomSheet.d.ts",
+  "types": "./dist/BottomSheet.d.ts",
   "exports": {
     ".": {
       "import": "./dist/vue-bottom-sheet-mobile.es.js",

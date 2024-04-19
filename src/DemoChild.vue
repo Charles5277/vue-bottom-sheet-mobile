@@ -84,72 +84,11 @@
       ref="myBottomSheet"
     >
       <div class="sheet-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque sed tempore ullam.
-          Accusamus animi at autem beatae est, hic inventore iste minima, non quibusdam quisquam
-          quos velit veritatis voluptatem?
-        </p>
+        test
         <button type="button" class="btn btn-danger" @click="close">Close</button>
       </div>
     </bottom-sheet>
   </div>
-
-  <DemoChild />
 </template>
 
 <script setup lang="ts">
@@ -157,7 +96,6 @@ import { ColorPicker } from 'vue3-colorpicker'
 import 'vue3-colorpicker/style.css'
 import { ref } from 'vue'
 import BottomSheet from '@/BottomSheet.vue'
-import DemoChild from '@/DemoChild.vue'
 
 const overlay = ref(true)
 const maxWidth = ref(640)

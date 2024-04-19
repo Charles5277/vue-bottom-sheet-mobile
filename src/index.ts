@@ -1,2 +1,2 @@
-import VueBottomSheet from './VueBottomSheet.vue'
-export default VueBottomSheet
+import BottomSheet from './BottomSheet.vue'
+export default BottomSheet
