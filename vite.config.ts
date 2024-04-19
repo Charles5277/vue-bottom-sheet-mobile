@@ -16,7 +16,7 @@ export default defineConfig({
       entry: 'src/index.ts',
       name: 'VueBottomSheet',
       formats: ['es', 'cjs', 'umd'],
-      fileName: (format: string) => `vue-bottom-sheet-mobile.${format}.js`
+      fileName: (format: string) => `bottom-sheet-mobile.${format}.js`
     },
     rollupOptions: {
       external: ['vue', 'hammerjs'],
